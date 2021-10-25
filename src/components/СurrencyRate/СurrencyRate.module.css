@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main {
+    display: flex;
+    width: 970px;
+    justify-content: space-between;
+}
+.h1 {
+    margin: 111px 0 70px;
+}
+
+.fstick {
+    width: 56px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 7px;
+}
+.sstick {
+    width: 56px;
+    height: 5px;
+    background-color: #fff;
+    border-radius: 15px;
+}

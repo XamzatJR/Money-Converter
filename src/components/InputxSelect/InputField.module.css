@@ -1,0 +1,75 @@
+.input {
+    width: 264px;
+    height: 73px;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(7px);
+    font-size: 30px;
+    outline: none;
+    border: none;
+    padding-left: 100px;
+}
+.inputField {
+    display: flex;
+}
+.select {
+    position: relative;
+    height: 73px;
+}
+.default_select {
+    width: 138px;
+    height: 73px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(7px);
+    cursor: pointer;
+}
+.defaultValue {
+    font-size: 30px;
+    align-self: center;
+    position: relative;
+    width: 79px;
+}
+.logo {
+    width: 59px;
+    height: 73px;
+    background-color:rgba(255, 255, 255, 0.54);
+    background-image: url('../../assets/Vector.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logo_active {
+    background-color:rgba(255, 255, 255, 0);
+    width: 59px;
+    height: 73px;
+    background-image: url('../../assets/Vector_active.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ul {
+    width: 145px;
+    position: absolute;
+    top: 100%;
+    left: -7px;
+    backdrop-filter: blur(7px);
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s linear, visibility 0.2s linear
+}
+.ul_active {
+    visibility: visible;
+    opacity: 1;
+}
+.li {
+    padding-left: 7px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.06);
+    height: 52px;
+    display: flex;
+    align-items: center;
+}
+.li:hover {
+    color: #2B2B2B;
+    background-color: #fff;
+}
