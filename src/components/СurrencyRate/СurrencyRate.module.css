@@ -9,9 +9,11 @@
     justify-content: space-between;
 }
 .h1 {
-    margin: 111px 0 70px;
+    margin: 111px auto 70px;
 }
-
+.equal {
+    margin-top: 25px;
+}
 .fstick {
     width: 56px;
     height: 5px;
@@ -24,4 +26,15 @@
     height: 5px;
     background-color: #fff;
     border-radius: 15px;
+}
+.rate {
+    width: 264px;
+    margin-bottom: 45px;
+}
+.name {
+    font-size: 50px;
+    margin-right: 21px;
+}
+.value {
+    font-size: 50px;
 }

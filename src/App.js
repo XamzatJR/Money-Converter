@@ -4,13 +4,14 @@ import { Redirect, Route, Switch } from 'react-router';
 import Converter from './components/Converter/Converter';
 import Header from './components/Header/Header';
 import СurrencyRate from './components/СurrencyRate/СurrencyRate';
-import { fetchRate } from './redux/exchangeSlice';
+import { fetchRate, fetchRates } from './redux/exchangeSlice';
 
 function App() {
-  let {from, to} = useSelector(state => state.exchange)
+  let {from, to, currenties} = useSelector(state => state.exchange)
   const dispatch = useDispatch()
   useEffect(() => {
-  dispatch(fetchRate(from,to))
+    dispatch(fetchRate(from,to))
+    dispatch(fetchRates(from, currenties.join()))
   }, [])
   return (
     <>

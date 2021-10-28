@@ -22,7 +22,7 @@ function InputField({defaultValue,setValue,excludedValue,inputValue,setInputValu
     const ref = useRef(null)
     const [active, setActive] = useState(false),
            curr = useSelector(state => state.exchange.currenties),
-           currenties = curr.filter(el => el != defaultValue && el != excludedValue);
+           currenties = curr.filter(el => el !== defaultValue && el !== excludedValue);
     function changeActive () {
         setActive(!active);
     }
@@ -39,7 +39,7 @@ function InputField({defaultValue,setValue,excludedValue,inputValue,setInputValu
         <div className={classes.inputField}>
             <input {...props} className={classes.input} 
             onChange={e => handleChange(e)} 
-            value={input ? inputValue * input : inputValue}
+            value={input ? (inputValue * input).toFixed(3) : inputValue}
             type="text" /> 
             <div ref={ref} className={classes.select}> 
                 <div onClick={() => changeActive()} className={classes.default_select}>
