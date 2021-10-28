@@ -3,6 +3,7 @@ import classes from './СurrencyRate.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import InputField from '../InputxSelect/InputField';
 import { fetchRates, setFrom } from '../../redux/exchangeSlice';
+import Header from '../Header/Header';
 
 function СurrencyRate() {
     const [inputValue, setInputValue] = useState(1)
@@ -17,7 +18,9 @@ function СurrencyRate() {
         dispatch(fetchRates(from,currenties.join()))
     }
     return (
-        <section className={classes.container}>
+        <>
+        <Header title={'Курс валют'} btn={'Обмен валют'} link={'/'} />
+        <main className={classes.container}>
             <h1 className={classes.h1}>Текущий курс валют</h1>
             <div className={classes.main}>
                 <InputField defaultValue={from} setValue={setNewFrom} setInputValue={setInputValue} inputValue={inputValue} />
@@ -36,7 +39,8 @@ function СurrencyRate() {
                     })}
                 </div>
             </div>
-        </section>
+        </main>
+        </>
     )
 }
 

@@ -6,13 +6,13 @@
 .main {
     display: flex;
     width: 970px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .h1 {
     margin: 111px auto 70px;
 }
 .equal {
-    margin-top: 25px;
+    margin: 25px 57px;
 }
 .fstick {
     width: 56px;

@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { setTo,setFrom, fetchRate } from '../../redux/exchangeSlice';
+import Header from '../Header/Header';
 import InputField from '../InputxSelect/InputField'
 import classes from './Converter.module.css'
 function Converter() {
@@ -17,7 +18,9 @@ function Converter() {
             dispatch(fetchRate(from,to))
         }
     return (
-        <div className={classes.container}>
+        <>
+        <Header title={'Обмен валют'} btn={'Курс валют'} link={'/currency_rate'} />
+        <main className={classes.container}>
             <h1 className={classes.h1}>Конвертировать валюту</h1>
             <div className={classes.main}>
                 <InputField defaultValue={from} excludedValue={to}
@@ -31,7 +34,8 @@ function Converter() {
                 readOnly 
                 inputValue={rate} input={inputValue} />
             </div>
-        </div>
+        </main>
+        </>
     )
 }
 
