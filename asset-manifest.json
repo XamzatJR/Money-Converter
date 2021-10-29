@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/XamzatJR/Money-Converter.git/static/css/main.26f46727.chunk.css",
-    "main.js": "/XamzatJR/Money-Converter.git/static/js/main.df7042c3.chunk.js",
-    "main.js.map": "/XamzatJR/Money-Converter.git/static/js/main.df7042c3.chunk.js.map",
-    "runtime-main.js": "/XamzatJR/Money-Converter.git/static/js/runtime-main.5c28fdea.js",
-    "runtime-main.js.map": "/XamzatJR/Money-Converter.git/static/js/runtime-main.5c28fdea.js.map",
-    "static/js/2.112b8798.chunk.js": "/XamzatJR/Money-Converter.git/static/js/2.112b8798.chunk.js",
-    "static/js/2.112b8798.chunk.js.map": "/XamzatJR/Money-Converter.git/static/js/2.112b8798.chunk.js.map",
-    "index.html": "/XamzatJR/Money-Converter.git/index.html",
-    "static/css/main.26f46727.chunk.css.map": "/XamzatJR/Money-Converter.git/static/css/main.26f46727.chunk.css.map",
-    "static/js/2.112b8798.chunk.js.LICENSE.txt": "/XamzatJR/Money-Converter.git/static/js/2.112b8798.chunk.js.LICENSE.txt",
-    "static/media/InputField.module.css": "/XamzatJR/Money-Converter.git/static/media/Vector_active.6ddbf5b0.svg",
-    "static/media/Converter.module.css": "/XamzatJR/Money-Converter.git/static/media/arrow.bfc3c595.svg",
-    "static/media/index.css": "/XamzatJR/Money-Converter.git/static/media/фон.449b2d4f.jpg"
+    "main.css": "/Money-Converter/static/css/main.abe2d323.chunk.css",
+    "main.js": "/Money-Converter/static/js/main.df7042c3.chunk.js",
+    "main.js.map": "/Money-Converter/static/js/main.df7042c3.chunk.js.map",
+    "runtime-main.js": "/Money-Converter/static/js/runtime-main.29afa1c2.js",
+    "runtime-main.js.map": "/Money-Converter/static/js/runtime-main.29afa1c2.js.map",
+    "static/js/2.112b8798.chunk.js": "/Money-Converter/static/js/2.112b8798.chunk.js",
+    "static/js/2.112b8798.chunk.js.map": "/Money-Converter/static/js/2.112b8798.chunk.js.map",
+    "index.html": "/Money-Converter/index.html",
+    "static/css/main.abe2d323.chunk.css.map": "/Money-Converter/static/css/main.abe2d323.chunk.css.map",
+    "static/js/2.112b8798.chunk.js.LICENSE.txt": "/Money-Converter/static/js/2.112b8798.chunk.js.LICENSE.txt",
+    "static/media/InputField.module.css": "/Money-Converter/static/media/Vector_active.6ddbf5b0.svg",
+    "static/media/Converter.module.css": "/Money-Converter/static/media/arrow.bfc3c595.svg",
+    "static/media/index.css": "/Money-Converter/static/media/фон.449b2d4f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5c28fdea.js",
+    "static/js/runtime-main.29afa1c2.js",
     "static/js/2.112b8798.chunk.js",
-    "static/css/main.26f46727.chunk.css",
+    "static/css/main.abe2d323.chunk.css",
     "static/js/main.df7042c3.chunk.js"
   ]
 }
