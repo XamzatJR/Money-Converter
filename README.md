@@ -1,1 +1,1 @@
-<h1>Посмотреть: https://xamzatjr.github.io/Money-Converter/</h1>
+<h2>Посмотреть: https://xamzatjr.github.io/Money-Converter/</h2>
