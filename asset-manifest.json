@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Money-Converter/static/css/main.abe2d323.chunk.css",
-    "main.js": "/Money-Converter/static/js/main.df7042c3.chunk.js",
-    "main.js.map": "/Money-Converter/static/js/main.df7042c3.chunk.js.map",
+    "main.js": "/Money-Converter/static/js/main.74586f07.chunk.js",
+    "main.js.map": "/Money-Converter/static/js/main.74586f07.chunk.js.map",
     "runtime-main.js": "/Money-Converter/static/js/runtime-main.29afa1c2.js",
     "runtime-main.js.map": "/Money-Converter/static/js/runtime-main.29afa1c2.js.map",
     "static/js/2.112b8798.chunk.js": "/Money-Converter/static/js/2.112b8798.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.29afa1c2.js",
     "static/js/2.112b8798.chunk.js",
     "static/css/main.abe2d323.chunk.css",
-    "static/js/main.df7042c3.chunk.js"
+    "static/js/main.74586f07.chunk.js"
   ]
 }
